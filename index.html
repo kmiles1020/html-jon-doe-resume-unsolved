@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>John Doe's resume</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/js/scripts.js" />
   </head>
   <body class="fancy-body">
     <h1 id="candidate-name">John Doe</h1>
     <img
-      id="candidate-desired-role"
+      id="candidate-image"
       src="https://randomuser.me/api/portraits/men/20.jpg"
-      alt="Jon Doe's resume"
+      alt="candidate-image"
     />
 
     <section>
@@ -22,12 +21,13 @@
     <section>
       <h2 id="about-me">About Me</h2>
       <p class="candidate-bio">
-        Innovative Web Developer with a computer engineering and software
-        development background. Skilled in crafting responsive designs,
-        user-friendly interfaces, and modern web applications. Passionate about
-        delivering seamless digital experiences and solving problems to meet
-        client needs. A strong team player committed to efficiency, quality, and
-        exceeding expectations in every project.
+        Innovative Web Developer with a strong foundation in computer
+        engineering and software development. Experienced in designing and
+        building responsive websites, creating user-friendly interfaces, and
+        developing modern web applications. Passionate about enhancing digital
+        experiences through problem-solving and meeting client objectives. A
+        collaborative team player focused on delivering high-quality results
+        efficiently while exceeding expectations.
       </p>
     </section>
 
@@ -55,9 +55,9 @@
 
     <section>
       <h2 id="contacts">Contact Me</h2>
-      <table>
+      <table class="contacts-table">
         <tr>
-          <td>LinkedIn:</td>
+          <th>LinkedIn:</th>
           <td>
             <a href="https://linkedin.com/in/kylemiles/" target="_blank"
               >Kyle Miles</a
@@ -65,13 +65,13 @@
           </td>
         </tr>
         <tr>
-          <td>Email:</td>
+          <th>Email:</th>
           <td>
             <a href="mailto:kylemiles1020@gmail.com">kylemiles1020@gmail.com</a>
           </td>
         </tr>
         <tr>
-          <td>GitHub:</td>
+          <th>GitHub:</th>
           <td>
             <a href="https://github.com/kmiles1020" target="_blank"
               >kmiles1020</a
@@ -79,14 +79,11 @@
           </td>
         </tr>
         <tr>
-          <td>Discord:</td>
-          <td>
-            <a href="https://discord.com/kmiles1020" target="_blank"
-              >kmiles1020</a
-            >
-          </td>
+          <th>Discord:</th>
+          <td>kmiles1020</td>
         </tr>
       </table>
     </section>
+    <script src="/js/scripts.js" defer></script>
   </body>
 </html>
